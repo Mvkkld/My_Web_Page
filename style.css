@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+    background-color: seagreen;
+    display: flex;
+}
+nav>img{
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+.items{
+    color: white;
+}
+.items_3{
+    font-size: x-large;
+    color: black;
+    padding-right: 8px;
+}
+.items_3:hover{
+    text-decoration: underline;
+    color: white;
+}
+.icons{
+    font-size: x-large;
+    padding-right: 8px;
+    color: aliceblue;
+}
+.main{
+    padding-right: 15px;
+}
+.stock{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+    color: seagreen;
+}
+.parant{ 
+    display: flex;
+}
+.box{
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid black;
+}
+.box>img{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    font-weight: bold;
+    color: darkslategray;
+    font-size: 30px;
+}
+.desc:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.desc{
+    color: seagreen;
+    font-size: 15px;
+    font-weight: bold;
+}
+.price{
+    color: aliceblue;
+    background-color: seagreen;
+    font-weight: bold;
+    margin-top: 0px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.price:hover{
+    color: black;
+    background-color: antiquewhite;
+}
